@@ -1,0 +1,66 @@
+body {
+    background-color:antiquewhite;
+
+}
+
+form {
+    width: 500px;
+    height: 450px;
+    background-image: linear-gradient(to right, blue, purple);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+form label {
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+
+input:hover, textarea:hover {
+    border-color: blueviolet;
+    box-shadow: 5px 0px 10px black;
+    font-weight: bold;
+
+}
+
+textarea {
+    width: 300px;
+    height: 120px;
+    line-height: 20px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.submit {
+    
+}
+
+.submit:hover {
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+}
+
+.maps {
+    width: 600px;
+    height: 600px;
+    float: right;
+}
